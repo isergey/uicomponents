@@ -18,6 +18,7 @@
     "lodash": "latest",
     "backbone": "latest",
     "backbone.marionette": "latest",
+    "bootstrap": "latest",
     "underscore.string": "latest",
     "handlebars": "latest",
     "moment": "latest",

@@ -1,0 +1,64 @@
+{
+  "name": "uicomponents",
+  "version": "1.0.0",
+  "description": "js polerplate",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo 'test'"
+  },
+  "keywords": [
+    "polerplate",
+    "gulp",
+    "browserify"
+  ],
+  "author": "Sergey",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "latest",
+    "lodash": "latest",
+    "backbone": "latest",
+    "backbone.marionette": "latest",
+    "underscore.string": "latest",
+    "handlebars": "latest",
+    "moment": "latest",
+    "normalize.css": "latest",
+    "animate.css": "latest"
+  },
+  "browser": {
+    "underscore": "lodash"
+  },
+  "browserify": {
+    "transform": [
+      "hbsfy",
+      "coffeeify"
+    ]
+  },
+  "devDependencies": {
+    "browserify": "^5.11.1",
+    "coffee-script": "^1.8.0",
+    "coffeeify": "^0.7.0",
+    "coffeelint": "^1.6.0",
+    "del": "^0.1.2",
+    "gulp": "^3.8.8",
+    "gulp-autoprefixer": "^1.0.1",
+    "gulp-cache": "^0.2.2",
+    "gulp-coffeelint": "^0.4.0",
+    "gulp-concat": "^2.4.1",
+    "gulp-imagemin": "^1.0.1",
+    "gulp-jshint": "^1.8.4",
+    "gulp-minify-css": "^0.3.8",
+    "gulp-newer": "^0.3.0",
+    "gulp-sass": "^1.0.0",
+    "gulp-sourcemaps": "^1.2.2",
+    "gulp-streamify": "0.0.5",
+    "gulp-stylus": "^1.3.0",
+    "gulp-uglify": "^1.0.1",
+    "gulp-util": "^3.0.1",
+    "hbsfy": "^2.1.0",
+    "jshint": "^2.5.5",
+    "npm": "^1.4.26",
+    "stylus": "^0.48.1",
+    "uglify-js": "^2.4.15",
+    "vinyl-source-stream": "^1.0.0"
+  }
+}
